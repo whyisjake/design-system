@@ -12,6 +12,9 @@ A component proposal for the design system needs a metadata recommendation.
 
 Our design system uses package control systems, and these systems need names and some basic metadata about the component, and will help with registering the component in the documentation and any libraries.
 
+Component Name: 
+Original Issue: 
+
 ## Component Metadata Checklist
 - [ ] Component name
 - [ ] Short name

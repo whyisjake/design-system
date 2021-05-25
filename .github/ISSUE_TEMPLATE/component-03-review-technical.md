@@ -10,6 +10,9 @@ assignees: ''
 
 A component proposal for the design system needs a technical review.
 
+Component Name: 
+Original Issue: 
+
 ## Development Review Checklist
 
 - [ ] Features

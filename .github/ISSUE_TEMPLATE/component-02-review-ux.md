@@ -10,6 +10,9 @@ assignees: ''
 
 A component proposal for the design system needs a UX review.
 
+Component Name: 
+Original Issue: 
+
 ## Checklist
 - [ ] User research
 - [ ] Design

@@ -9,6 +9,9 @@ assignees: ''
 ### Documentation
 *This document will inform the documentation we create for the finished component.*
 
+Component Name: 
+Original Issue: 
+
 - [ ] Screenshots
 - [ ] Sample code
 - [ ] How to use
