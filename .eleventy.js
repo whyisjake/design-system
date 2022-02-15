@@ -56,6 +56,8 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({
     'components/icons/dist/svg': 'cagov-icons-svg',
   });
+  eleventyConfig.addPassthroughCopy({ 'components/icons/fonts': 'fonts' });
+
   return {
     htmlTemplateEngine: 'njk',
     markdownTemplateEngine: 'njk',
