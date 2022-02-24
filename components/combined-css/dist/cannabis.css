@@ -2,21 +2,21 @@
 /* Colorscheme root variables */
 :root {
   /* Theme colors */
-  --primary-color: #064E66;
+  --primary-color: #064e66;
   --primary-dark-color: #043747;
   --primary-light-color: #518394;
-  --primary-lightest-color: #B4CAD1;
+  --primary-lightest-color: #b4cad1;
   --primary-hover-color: #043747;
-  --secondary-color: #2F4C2C;
-  --secondary-dark-color: #21351F;
-  --secondary-light-color: #6D826B;
-  --secondary-lightest-color: #C1C9C0;
-  --secondary-hover-color: #21351F;
-  --highlight-color: #C0633B;
+  --secondary-color: #2f4c2c;
+  --secondary-dark-color: #21351f;
+  --secondary-light-color: #6d826b;
+  --secondary-lightest-color: #c1c9c0;
+  --secondary-hover-color: #21351f;
+  --highlight-color: #c0633b;
   --highlight-dark-color: #864529;
-  --highlight-light-color: #D39276;
-  --highlight-lightest-color: #ECD0C4;
-  --secondary-hover-color: #864529;
+  --highlight-light-color: #d39276;
+  --highlight-lightest-color: #ecd0c4;
+  --highlight-hover-color: #864529;
 }
 
 /* theme colors */
@@ -3948,6 +3948,26 @@ figure figcaption {
   color: var(--primary-dark-color) !important;
 }
 
+.primary-light-color {
+  color: var(--primary-light-color) !important;
+}
+
+.primary-light-color-hover:hover {
+  color: var(--primary-light-color) !important;
+}
+
+.primary-lightest-color {
+  color: var(--primary-lightest-color) !important;
+}
+
+.primary-lightest-color-hover:hover {
+  color: var(--primary-lightest-color) !important;
+}
+
+.primary-hover-color:hover {
+  color: var(--primary-hover-color) !important;
+}
+
 .secondary-color {
   color: var(--secondary-color) !important;
 }
@@ -3964,6 +3984,26 @@ figure figcaption {
   color: var(--secondary-dark-color) !important;
 }
 
+.secondary-light-color {
+  color: var(--secondary-light-color) !important;
+}
+
+.secondary-light-color-hover:hover {
+  color: var(--secondary-light-color) !important;
+}
+
+.secondary-lightest-color {
+  color: var(--secondary-lightest-color) !important;
+}
+
+.secondary-lightest-color-hover:hover {
+  color: var(--secondary-lightest-color) !important;
+}
+
+.secondary-hover-color:hover {
+  color: var(--secondary-hover-color) !important;
+}
+
 .highlight-color {
   color: var(--highlight-color) !important;
 }
@@ -3978,6 +4018,26 @@ figure figcaption {
 
 .highlight-dark-color-hover:hover {
   color: var(--highlight-dark-color) !important;
+}
+
+.highlight-light-color {
+  color: var(--highlight-light-color) !important;
+}
+
+.highlight-light-color-hover:hover {
+  color: var(--highlight-light-color) !important;
+}
+
+.highlight-lightest-color {
+  color: var(--highlight-lightest-color) !important;
+}
+
+.highlight-lightest-color-hover:hover {
+  color: var(--highlight-lightest-color) !important;
+}
+
+.highlight-hover-color:hover {
+  color: var(--highlight-hover-color) !important;
 }
 
 .white,
@@ -4136,6 +4196,10 @@ figure figcaption {
   background-color: var(--primary-lightest-color) !important;
 }
 
+.bg-primary-hover-color:hover {
+  background-color: var(--primary-hover-color) !important;
+}
+
 .bg-secondary-color {
   background-color: var(--secondary-color) !important;
 }
@@ -4168,6 +4232,10 @@ figure figcaption {
   background-color: var(--secondary-lightest-color) !important;
 }
 
+.bg-secondary-hover-color:hover {
+  background-color: var(--secondary-hover-color) !important;
+}
+
 .bg-highlight-color {
   background-color: var(--highlight-color) !important;
 }
@@ -4198,6 +4266,10 @@ figure figcaption {
 
 .bg-highlight-lightest-color-hover:hover {
   background-color: var(--highlight-lightest-color) !important;
+}
+
+.bg-highlight-hover-color:hover {
+  background-color: var(--highlight-hover-color) !important;
 }
 
 .bg-gray-100 {
@@ -5410,7 +5482,7 @@ figure figcaption {
 }
 
 .font-lineheight-6 {
-  line-height: var(--font-lineheight-5) !important;
+  line-height: var(--font-lineheight-6) !important;
 }
 
 .underline {
@@ -5553,6 +5625,31 @@ figure figcaption {
 
 .transform-scale-10-hover:hover {
   transform: var(--transform-scale-10);
+}
+
+/* Sadows */
+.shadow-1 {
+  box-shadow: var(--shadow-1);
+}
+
+.shadow-2 {
+  box-shadow: var(--shadow-2);
+}
+
+.shadow-3 {
+  box-shadow: var(--shadow-3);
+}
+
+.shadow-4 {
+  box-shadow: var(--shadow-4);
+}
+
+.shadow-5 {
+  box-shadow: var(--shadow-5);
+}
+
+.shadow-6 {
+  box-shadow: var(--shadow-6);
 }
 
 /* all utility css classes that can be used (shortcodes) */
