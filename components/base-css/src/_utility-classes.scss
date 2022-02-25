@@ -1079,6 +1079,42 @@
 .bg-alpha-90 {
   background-color: rgba(0, 0, 0, 0.9) !important;
 }
+.bg-alpha-100 {
+  background-color: rgba(0, 0, 0, 1) !important;
+}
+.opacity-0 {
+  opacity: 0 !important;
+}
+.opacity-1 {
+  opacity: 0.1 !important;
+}
+.opacity-2 {
+  opacity: 0.2 !important;
+}
+.opacity-3 {
+  opacity: 0.3 !important;
+}
+.opacity-4 {
+  opacity: 0.4 !important;
+}
+.opacity-5 {
+  opacity: 0.5 !important;
+}
+.opacity-6 {
+  opacity: 0.6 !important;
+}
+.opacity-7 {
+  opacity: 0.7 !important;
+}
+.opacity-8 {
+  opacity: 0.8 !important;
+}
+.opacity-9 {
+  opacity: 0.9 !important;
+}
+.opacity-100 {
+  opacity: 1 !important;
+}
 
 /* MISC */
 .mb-2,
@@ -1930,101 +1966,101 @@
 
 /* ease transform */
 .transition-1 {
-  transition: all var(--animation-duration-1);
+  transition: all var(--animation-duration-1) !important;
 }
 .transition-2 {
-  transition: all var(--animation-duration-2);
+  transition: all var(--animation-duration-2) !important;
 }
 .transition-3 {
-  transition: all var(--animation-duration-3);
+  transition: all var(--animation-duration-3) !important;
 }
 .transition-4 {
-  transition: all var(--animation-duration-4);
+  transition: all var(--animation-duration-4) !important;
 }
 .transition-5 {
-  transition: all var(--animation-duration-5);
+  transition: all var(--animation-duration-5) !important;
 }
 .transition-6 {
-  transition: all var(--animation-duration-6);
+  transition: all var(--animation-duration-6) !important;
 }
 .transition-7 {
-  transition: all var(--animation-duration-7);
+  transition: all var(--animation-duration-7) !important;
 }
 .transition-8 {
-  transition: all var(--animation-duration-8);
+  transition: all var(--animation-duration-8) !important;
 }
 .transition-9 {
-  transition: all var(--animation-duration-9);
+  transition: all var(--animation-duration-9) !important;
 }
 .transition-10 {
-  transition: all var(--animation-duration-10);
+  transition: all var(--animation-duration-10) !important;
 }
 
 /* ease */
 .ease-1 {
-  transition-timing-function: var(--ease-1);
+  transition-timing-function: var(--ease-1) !important;
 }
 .ease-2 {
-  transition-timing-function: var(--ease-2);
+  transition-timing-function: var(--ease-2) !important;
 }
 .ease-3 {
-  transition-timing-function: var(--ease-3);
+  transition-timing-function: var(--ease-3) !important;
 }
 .ease-4 {
-  transition-timing-function: var(--ease-4);
+  transition-timing-function: var(--ease-4) !important;
 }
 .ease-5 {
-  transition-timing-function: var(--ease-5);
+  transition-timing-function: var(--ease-5) !important;
 }
 
 /* scale on hover */
 .transform-scale-1-hover:hover {
-  transform: var(--transform-scale-1);
+  transform: var(--transform-scale-1) !important;
 }
 .transform-scale-2-hover:hover {
-  transform: var(--transform-scale-2);
+  transform: var(--transform-scale-2) !important;
 }
 .transform-scale-3-hover:hover {
-  transform: var(--transform-scale-3);
+  transform: var(--transform-scale-3) !important;
 }
 .transform-scale-4-hover:hover {
-  transform: var(--transform-scale-4);
+  transform: var(--transform-scale-4) !important;
 }
 .transform-scale-5-hover:hover {
-  transform: var(--transform-scale-5);
+  transform: var(--transform-scale-5) !important;
 }
 .transform-scale-6-hover:hover {
-  transform: var(--transform-scale-6);
+  transform: var(--transform-scale-6) !important;
 }
 .transform-scale-7-hover:hover {
-  transform: var(--transform-scale-7);
+  transform: var(--transform-scale-7) !important;
 }
 .transform-scale-8-hover:hover {
-  transform: var(--transform-scale-8);
+  transform: var(--transform-scale-8) !important;
 }
 .transform-scale-9-hover:hover {
-  transform: var(--transform-scale-9);
+  transform: var(--transform-scale-9) !important;
 }
 .transform-scale-10-hover:hover {
-  transform: var(--transform-scale-10);
+  transform: var(--transform-scale-10) !important;
 }
 
 /* Sadows */
 .shadow-1 {
-  box-shadow: var(--shadow-1);
+  box-shadow: var(--shadow-1) !important;
 }
 .shadow-2 {
-  box-shadow: var(--shadow-2);
+  box-shadow: var(--shadow-2) !important;
 }
 .shadow-3 {
-  box-shadow: var(--shadow-3);
+  box-shadow: var(--shadow-3) !important;
 }
 .shadow-4 {
-  box-shadow: var(--shadow-4);
+  box-shadow: var(--shadow-4) !important;
 }
 .shadow-5 {
-  box-shadow: var(--shadow-5);
+  box-shadow: var(--shadow-5) !important;
 }
 .shadow-6 {
-  box-shadow: var(--shadow-6);
+  box-shadow: var(--shadow-6) !important;
 }

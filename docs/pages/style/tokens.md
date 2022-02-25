@@ -569,3 +569,300 @@ Cagov main colors are used in `ca.gov` logo or other `ca.gov` branding elements
     <p class="font-size-1">--font-lineheight-6</p>
   </div>
 </div>
+
+### Responsive font ratio
+Responsive font ratio is viewport width value that is used for responsive font size calculations.
+<div class="grid-container">
+<div class="code-block"><p class="code-block-language">Variables</p><pre><code class="hljs"><span class="hljs-code">--ratio: 0.1vw;
+</span></code></pre>
+</div>
+
+<div class="code-block"><p class="code-block-language">Example</p><pre><code class="hljs"><span class="hljs-code">h2 {
+  font-size: calc(var(--font-size-8) + var(--ratio));
+}
+</span></code></pre>
+</div>
+</div>
+
+### Font family
+<div class="grid-container">
+<div class="code-block"><p class="code-block-language">Variables</p><pre><code class="hljs"><span class="hljs-code">--site-font: "Public Sans", sans-serif;
+</span></code></pre>
+</div>
+
+<div class="code-block"><p class="code-block-language">Example</p><pre><code class="hljs"><span class="hljs-code">body {
+  font-family: var(--site-font);
+}
+</span></code></pre>
+</div>
+</div>
+
+
+### Site logo font variables
+Site logo font variables are used specifically to stylize a website's logotype in site-header component.
+<div class="grid-container">
+<div class="code-block"><p class="code-block-language">Variables</p><pre><code class="hljs"><span class="hljs-code">--org-name-state-font: "Public Sans";
+--org-name-state-font-size: 1rem;
+--org-name-state-font-weight: 500;
+--org-name-state-line-height: 1.2;
+--org-name-state-text-transform: none;
+--org-name-dept-font: "Public Sans";
+--org-name-dept-font-size: 1.75rem;
+--org-name-dept-font-weight: 700;
+--org-name-dept-line-height: 1.2;
+--org-name-dept-text-transform: none;
+</span></code></pre>
+</div>
+
+<div class="code-block"><p class="code-block-language">Example</p><pre><code class="hljs"><span class="hljs-code">.org-name-dept {
+    font-family: var(--org-name-dept-font);
+  }
+</span></code></pre>
+</div>
+</div>
+
+
+<div class="site-header">
+  <div class="container with-logo">
+    <a href="/" class="grid-logo" aria-label="DCC logo">
+    <img src="https://california.azureedge.net/cdt/statetemplate/global/images/gov-seal.png" alt="State seal">
+    </a>
+    <a class="grid-org-name" href="/">
+<span class="org-name-state">
+        State of California
+      </span>
+      <span class="org-name-dept">
+        Design System
+      </span>
+    </a>
+  </div>
+</div>
+
+
+
+<hr class="border-1 border-gray-600 m-y-5">
+
+## Border tokens
+### Border width
+
+
+<div class="grid-container">
+<div class="code-block"><p class="code-block-language">Variables</p><pre><code class="hljs"><span class="hljs-code">--border-1: 1px;
+--border-2: 2px;
+--border-3: 3px;
+--border-4: 4px;
+--border-5: 5px;
+--border-6: 6px;
+</span></code></pre>
+</div>
+
+<div class="code-block"><p class="code-block-language">Example</p><pre><code class="hljs"><span class="hljs-code">.btn-primary-outline {
+    border: var(--border-1) solid;
+  }
+</span></code></pre>
+</div>
+</div>
+
+
+
+<div class="grid-container">
+  <div class="text-center p-t-3">
+    <div class="border-1 w-7 h-7 m-x-a"></div>
+    <p class="font-size-1">--border-1</p>
+  </div>
+  <div class="text-center p-t-3">
+    <div class="border-2 w-7 h-7 m-x-a"></div>
+      <p class="font-size-1">--border-2</p>
+  </div>
+  <div class="text-center p-t-3">
+    <div class="border-3 w-7 h-7 m-x-a"></div>
+      <p class="font-size-1">--border-3</p>
+  </div>
+  <div class="text-center p-t-3">
+    <div class="border-4 w-7 h-7 m-x-a"></div>
+      <p class="font-size-1">--border-4</p>
+  </div>
+  <div class="text-center p-t-3">
+    <div class="border-5 w-7 h-7 m-x-a"></div>
+      <p class="font-size-1">--border-5</p>
+  </div>
+  <div class="text-center p-t-3">
+    <div class="border-6 w-7 h-7 m-x-a"></div>
+      <p class="font-size-1">--border-6</p>
+  </div>
+</div>
+
+### Border radius
+
+
+<div class="grid-container">
+<div class="code-block"><p class="code-block-language">Variables</p><pre><code class="hljs"><span class="hljs-code">--radius-round: 50%;
+--radius-1: 2px;
+--radius-2: 5px;
+--radius-3: 0.5rem;
+--radius-4: 1rem;
+--radius-5: 2rem;
+</span></code></pre>
+</div>
+
+<div class="code-block"><p class="code-block-language">Example</p><pre><code class="hljs"><span class="hljs-code">.btn-primary {
+    border-radius: var(--radius-2);
+  }
+</span></code></pre>
+</div>
+</div>
+
+
+
+<div class="grid-container">
+  <div class="text-center p-t-3">
+    <div class="radius-1 border-1 w-7 h-7 m-x-a"></div>
+    <p class="font-size-1">--border-1</p>
+  </div>
+  <div class="text-center p-t-3">
+    <div class="radius-2 border-1 w-7 h-7 m-x-a"></div>
+      <p class="font-size-1">--border-2</p>
+  </div>
+  <div class="text-center p-t-3">
+    <div class="radius-3 border-1 w-7 h-7 m-x-a"></div>
+      <p class="font-size-1">--border-3</p>
+  </div>
+  <div class="text-center p-t-3">
+    <div class="radius-4 border-1 w-7 h-7 m-x-a"></div>
+      <p class="font-size-1">--border-4</p>
+  </div>
+  <div class="text-center p-t-3">
+    <div class="radius-5 border-1 w-7 h-7 m-x-a"></div>
+      <p class="font-size-1">--border-5</p>
+  </div>
+    <div class="text-center p-t-3">
+    <div class="radius-round border-1 w-7 h-7 m-x-a"></div>
+      <p class="font-size-1">--radius-round</p>
+  </div>
+</div>
+
+
+<hr class="border-1 border-gray-600 m-y-5">
+
+## Shadow tokens
+
+### Shadow properties
+<div class="code-block"><p class="code-block-language">Variables</p><pre><code class="hljs"><span class="hljs-code">--shadow-color: 220 3% 15%;
+--shadow-strength: 1%;
+</span></code></pre>
+</div>
+
+<div class="code-block"><p class="code-block-language">Example</p><pre><code class="hljs"><span class="hljs-code font-size-sm">.shadow-1 {
+    box-shadow: 0 1px 2px -1px hsl(var(--shadow-color) / calc(var(--shadow-strength) + 9%));
+  }
+</span></code></pre>
+</div>
+</div>
+
+
+### Shadow variations
+<div class="code-block"><p class="code-block-language">Variables</p><pre><code class="hljs"><span class="hljs-code font-size-sm">--shadow-1: 0 1px 2px -1px hsl(var(--shadow-color) / calc(var(--shadow-strength) + 9%));
+--shadow-2: 0 3px 5px -2px hsl(var(--shadow-color) / calc(var(--shadow-strength) + 3%)),
+    0 7px 14px -5px hsl(var(--shadow-color) / calc(var(--shadow-strength) + 5%));
+--shadow-3: 0 -1px 3px 0 hsl(var(--shadow-color) / calc(var(--shadow-strength) + 2%)),
+    0 1px 2px -5px hsl(var(--shadow-color) / calc(var(--shadow-strength) + 2%)),
+    0 2px 5px -5px hsl(var(--shadow-color) / calc(var(--shadow-strength) + 4%)),
+    0 4px 12px -5px hsl(var(--shadow-color) / calc(var(--shadow-strength) + 5%)),
+    0 12px 15px -5px hsl(var(--shadow-color) / calc(var(--shadow-strength) + 7%));
+--shadow-4: 0 -2px 5px 0 hsl(var(--shadow-color) / calc(var(--shadow-strength) + 2%)),
+    0 1px 1px -2px hsl(var(--shadow-color) / calc(var(--shadow-strength) + 3%)),
+    0 2px 2px -2px hsl(var(--shadow-color) / calc(var(--shadow-strength) + 3%)),
+    0 5px 5px -2px hsl(var(--shadow-color) / calc(var(--shadow-strength) + 4%)),
+    0 9px 9px -2px hsl(var(--shadow-color) / calc(var(--shadow-strength) + 5%)),
+    0 16px 16px -2px hsl(var(--shadow-color) / calc(var(--shadow-strength) + 6%));
+--shadow-5: 0 -1px 2px 0 hsl(var(--shadow-color) / calc(var(--shadow-strength) + 2%)),
+    0 2px 1px -2px hsl(var(--shadow-color) / calc(var(--shadow-strength) + 3%)),
+    0 5px 5px -2px hsl(var(--shadow-color) / calc(var(--shadow-strength) + 3%)),
+    0 10px 10px -2px hsl(var(--shadow-color) / calc(var(--shadow-strength) + 4%)),
+    0 20px 20px -2px hsl(var(--shadow-color) / calc(var(--shadow-strength) + 5%)),
+    0 40px 40px -2px hsl(var(--shadow-color) / calc(var(--shadow-strength) + 7%));
+--shadow-6: 0 -1px 2px 0 hsl(var(--shadow-color) / calc(var(--shadow-strength) + 2%)),
+    0 3px 2px -2px hsl(var(--shadow-color) / calc(var(--shadow-strength) + 3%)),
+    0 7px 5px -2px hsl(var(--shadow-color) / calc(var(--shadow-strength) + 3%)),
+    0 12px 10px -2px hsl(var(--shadow-color) / calc(var(--shadow-strength) + 4%)),
+    0 22px 18px -2px hsl(var(--shadow-color) / calc(var(--shadow-strength) + 5%)),
+    0 41px 33px -2px hsl(var(--shadow-color) / calc(var(--shadow-strength) + 6%)),
+    0 100px 80px -2px hsl(var(--shadow-color) / calc(var(--shadow-strength) + 7%));
+</span></code></pre>
+
+<div class="code-block"><p class="code-block-language">Example</p><pre><code class="hljs"><span class="hljs-code font-size-sm">.shadow-6 {
+  box-shadow: var(--shadow-6);
+}
+</span></code></pre>
+
+<div class="grid-container bg-gray-200 p-y-6 p-x-3">
+
+  <div class="text-center p-t-3 ">
+    <div class="radius-3 bg-white shadow-1 w-7 h-7 m-x-a"></div>
+      <p class="font-size-1 bg-alpha-0 m-t-4">--shadow-1</p>
+  </div>
+    <div class="text-center p-t-3">
+    <div class="radius-3 bg-white shadow-2 w-7 h-7 m-x-a"></div>
+      <p class="font-size-1 bg-alpha-0 m-t-4">--shadow-2</p>
+  </div>
+    <div class="text-center p-t-3">
+    <div class="radius-3 bg-white shadow-3 w-7 h-7 m-x-a"></div>
+      <p class="font-size-1 bg-alpha-0 m-t-4">--shadow-3</p>
+  </div>
+    <div class="text-center p-t-3">
+    <div class="radius-3 bg-white shadow-4 w-7 h-7 m-x-a"></div>
+      <p class="font-size-1 bg-alpha-0 m-t-4">--shadow-4</p>
+  </div>
+    <div class="text-center p-t-3">
+    <div class="radius-3 bg-white shadow-5 w-7 h-7 m-x-a"></div>
+      <p class="font-size-1 bg-alpha-0 m-t-4">--shadow-5</p>
+  </div>
+    <div class="text-center p-t-3">
+    <div class="radius-3 bg-white shadow-6 w-7 h-7 m-x-a"></div>
+      <p class="font-size-1 bg-alpha-0 m-t-4">--shadow-6</p>
+  </div>
+
+</div>
+
+## Animation tokens 
+### Animation duration
+
+<div class="grid-container">
+<div class="code-block"><p class="code-block-language">Variables</p><pre><code class="hljs"><span class="hljs-code">--animation-duration-1: 0.1s;
+--animation-duration-2: 0.2s;
+--animation-duration-3: 0.3s;
+--animation-duration-4: 0.4s;
+--animation-duration-5: 0.5s;
+--animation-duration-6: 0.6s;
+--animation-duration-7: 0.7s;
+--animation-duration-8: 0.8s;
+--animation-duration-9: 0.9s;
+--animation-duration-10: 1s;
+</span></code></pre>
+</div>
+
+<div class="code-block"><p class="code-block-language">Example</p><pre><code class="hljs"><span class="hljs-code">.btn-primary-outline {
+    transition: all var(--animation-duration-3);
+  }
+</span></code></pre>
+</div>
+</div>
+
+Hover over the buttons to see the effect
+<div class="d-flex gap-3 m-b-3">
+<a href="#" class="btn-primary-outline btn-hover-right"><span class="btn-text transition-1">--animation-duration-1</span><span class="ca-gov-icon-arrow-next transition-1" aria-hidden="true"></span></a>
+<a href="#" class="btn-primary-outline btn-hover-right"><span class="btn-text transition-2">--animation-duration-2</span><span class="ca-gov-icon-arrow-next transition-2" aria-hidden="true"></span></a>
+<a href="#" class="btn-primary-outline btn-hover-right"><span class="btn-text transition-3">--animation-duration-3</span><span class="ca-gov-icon-arrow-next transition-3" aria-hidden="true"></span></a>
+</div>
+
+<div class="d-flex gap-3 m-b-3">
+<a href="#" class="btn-primary-outline btn-hover-right"><span class="btn-text transition-4">--animation-duration-4</span><span class="ca-gov-icon-arrow-next transition-4" aria-hidden="true"></span></a>
+<a href="#" class="btn-primary-outline btn-hover-right"><span class="btn-text transition-5">--animation-duration-5</span><span class="ca-gov-icon-arrow-next transition-5" aria-hidden="true"></span></a>
+<a href="#" class="btn-primary-outline btn-hover-right"><span class="btn-text transition-6">--animation-duration-6</span><span class="ca-gov-icon-arrow-next transition-6" aria-hidden="true"></span></a>
+</div>
+
+<div class="d-flex gap-3 m-b-3">
+<a href="#" class="btn-primary-outline btn-hover-right"><span class="btn-text transition-7">--animation-duration-7</span><span class="ca-gov-icon-arrow-next transition-7" aria-hidden="true"></span></a>
+<a href="#" class="btn-primary-outline btn-hover-right"><span class="btn-text transition-8">--animation-duration-8</span><span class="ca-gov-icon-arrow-next transition-8" aria-hidden="true"></span></a>
+<a href="#" class="btn-primary-outline btn-hover-right"><span class="btn-text transition-9">--animation-duration-9</span><span class="ca-gov-icon-arrow-next transition-9" aria-hidden="true"></span></a>
+</div>
