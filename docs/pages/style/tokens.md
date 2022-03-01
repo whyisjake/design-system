@@ -866,3 +866,76 @@ Hover over the buttons to see the effect
 <a href="#" class="btn-primary-outline btn-hover-right"><span class="btn-text transition-8">--animation-duration-8</span><span class="ca-gov-icon-arrow-next transition-8" aria-hidden="true"></span></a>
 <a href="#" class="btn-primary-outline btn-hover-right"><span class="btn-text transition-9">--animation-duration-9</span><span class="ca-gov-icon-arrow-next transition-9" aria-hidden="true"></span></a>
 </div>
+
+### Easing animation
+
+<div class="grid-container">
+<div class="code-block"><p class="code-block-language">Variables</p><pre><code class="hljs"><span class="hljs-code">--ease-1: cubic-bezier(0.25, 0, 0.5, 1);
+--ease-2: cubic-bezier(0.25, 0, 0.4, 1);
+--ease-3: cubic-bezier(0.25, 0, 0.3, 1);
+--ease-4: cubic-bezier(0.25, 0, 0.2, 1);
+--ease-5: cubic-bezier(0.25, 0, 0.1, 1);
+</span></code></pre>
+</div>
+
+<div class="code-block"><p class="code-block-language">Example</p><pre><code class="hljs"><span class="hljs-code">div {
+    transition: all var(--animation-duration-5) var(--ease-1);
+  }
+  div:hover {
+    width:100%;
+  }
+</span></code></pre>
+</div>
+</div>
+
+Hover over the objects to see the effect
+<div class="grid-container">
+<div class="h-6 w-8 w-100-hover transition-8 ease-1 p-x-3 p-t-2 radius-3 bg-gray-400">--ease-1</div>
+<div class="h-6 w-8 w-100-hover transition-8 ease-5 p-x-3 p-t-2 radius-3 bg-gray-400">--ease-5</div>
+</div>
+
+
+### Scale transform variables
+<div class="grid-container">
+<div class="code-block"><p class="code-block-language">Variables</p><pre><code class="hljs"><span class="hljs-code">--transform-scale-1: scale3d(1.01, 1.01, 1.01);
+--transform-scale-2: scale3d(1.02, 1.02, 1.02);
+--transform-scale-3: scale3d(1.03, 1.03, 1.03);
+--transform-scale-4: scale3d(1.04, 1.04, 1.04);
+--transform-scale-5: scale3d(1.05, 1.05, 1.05);
+--transform-scale-6: scale3d(1.06, 1.06, 1.06);
+--transform-scale-7: scale3d(1.07, 1.07, 1.07);
+--transform-scale-8: scale3d(1.08, 1.08, 1.08);
+--transform-scale-9: scale3d(1.09, 1.09, 1.09);
+--transform-scale-10: scale3d(1.1, 1.1, 1.1);
+</span></code></pre>
+</div>
+
+<div class="code-block"><p class="code-block-language">Example</p><pre><code class="hljs"><span class="hljs-code">.btn-primary {
+    transition: all var(--animation-duration-5);
+  }
+  btn-primary:hover {
+    transform: var(--transform-scale-6);
+  }
+</span></code></pre>
+</div>
+</div>
+
+
+Hover over the buttons to see the effect
+<div class="d-flex gap-3 m-b-3">
+<a href="#" class="btn-primary-outline transform-scale-1-hover">--transform-scale-1</a>
+<a href="#" class="btn-primary-outline transform-scale-2-hover">--transform-scale-2</a>
+<a href="#" class="btn-primary-outline transform-scale-3-hover">--transform-scale-3</a>
+</div>
+
+<div class="d-flex gap-3 m-b-3">
+<a href="#" class="btn-primary-outline transform-scale-4-hover">--transform-scale-4</a>
+<a href="#" class="btn-primary-outline transform-scale-5-hover">--transform-scale-5</a>
+<a href="#" class="btn-primary-outline transform-scale-6-hover">--transform-scale-6</a>
+</div>
+
+<div class="d-flex gap-3 m-b-3">
+<a href="#" class="btn-primary-outline transform-scale-7-hover">--transform-scale-7</a>
+<a href="#" class="btn-primary-outline transform-scale-8-hover">--transform-scale-8</a>
+<a href="#" class="btn-primary-outline transform-scale-9-hover">--transform-scale-9</a>
+</div>

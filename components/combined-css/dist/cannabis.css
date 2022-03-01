@@ -4600,6 +4600,10 @@ figure figcaption {
   width: 100% !important;
 }
 
+.w-100-hover:hover {
+  width: 100% !important;
+}
+
 .w-auto {
   width: auto;
 }
